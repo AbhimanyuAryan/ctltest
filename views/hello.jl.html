@@ -1,0 +1,15 @@
+<h1>{{message}}</h1>
+<q-btn v-on:click="predict = true">Test</q-btn>
+<q-input v-model="myinput" label="Standard" />
+
+<!-- 
+    
+    @ won't work right now. Not properly handled by GB
+
+    use `v-on` instead so that means
+
+    no @click @MouseOver etc etc
+
+    <q-btn @click="predict = true">Test</q-btn> 
+
+-->
